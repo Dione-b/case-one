@@ -33,6 +33,7 @@
    
 
   main {
+    
     display: block;
   }
 
@@ -84,6 +85,16 @@
     list-style: none;
 }
 
+.sidebar-nav ul li  img{
+  position: absolute;
+  top: 0;
+  right:10px;
+  width: 200px;
+  margin: 0;
+  text-align: left;
+
+}
+
 .sidebar-nav li {
     text-indent: 10px;
     line-height: 50px;
@@ -93,6 +104,7 @@
     display: block;
     text-decoration: none;
     color: #DDDBD7;
+    text-align: left;
 }
 
 .sidebar-nav li a:hover {
