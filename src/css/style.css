@@ -1,0 +1,18 @@
+hr {
+    color: #fff;
+}
+
+ input {
+    float: left;
+    padding: 6px;
+    width: 25rem;
+    margin-left: 40rem;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn-conta {
+    width: 5rem;
+    height: 2.5rem;
+}
