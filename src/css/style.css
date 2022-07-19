@@ -1,8 +1,21 @@
+@font-face {
+    font-family: "AeonikTRIAL-Bold";
+    src: url("../../fonte/AeonikTRIAL-Bold.otf");
+}
+
+body {
+    font-family: 'AeonikTRIAL-Bold';
+}
+
 hr {
     color: #fff;
 }
 
- input {
+.navbar {
+    background-color: #e6e7eb;
+}
+
+input {
     float: left;
     padding: 6px;
     width: 25rem;
@@ -16,3 +29,66 @@ hr {
     width: 5rem;
     height: 2.5rem;
 }
+
+#main {
+    height: 100%;
+    margin-left: 250px;
+    margin-top: 45px;
+    max-width: 90rem;
+}
+
+#main .card {
+    margin: 0 auto;
+}
+
+#main .card .card-body span {
+    margin: 10px;
+}
+
+#main .card  img {
+    margin-left: 6rem;
+}
+
+#main .card-yellow {
+    border-left: 3px solid rgb(207, 207, 11);
+}
+
+#main .card-yellow p {
+    color: rgb(207, 207, 11);
+    font-size: 20px;
+}
+
+#main .card-yellow img {
+    margin: 10px;
+    margin-left: 120px;
+    width: 50px;
+}
+
+#main .card-blue {
+    border-left: 3px solid rgb(39, 18, 233);
+}
+
+#main .card-blue p {
+    color: rgb(39, 18, 233);
+    font-size: 20px;
+}
+
+#main .card-blue img {
+    margin-left: 120px;
+    width: 55px;
+}
+
+#main .card-green {
+    border-left: 3px solid rgba(67, 207, 11, 0.733);
+}
+
+#main .card-green p {
+    color: rgba(67, 207, 11, 0.733);
+    font-size: 20px;
+}
+
+#main .card-green img {
+    margin: 10px;
+    margin-left: 80px;
+}
+
