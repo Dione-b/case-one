@@ -35,6 +35,8 @@
   main {
     
     display: block;
+    text-align: left;
+
   }
 
   body {
@@ -83,6 +85,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-align: left;
 }
 
 .sidebar-nav ul li  img{
@@ -246,6 +249,7 @@
 
 
 
+
   }
 
   
@@ -365,6 +369,7 @@
   
   img {
     border-style: none;
+
   }
   
   /* Forms
