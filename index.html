@@ -92,9 +92,6 @@
     <div class="collapse navbar-collapse" id="navbarButtonsExample">
       <!-- Left links -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <input type="text" placeholder="Search.." name="search" >
-        </li>
       </ul>
 
       <div class="d-flex align-items-center">
@@ -105,32 +102,76 @@
   </div>
 </nav>
 <div class="row" id="main">
-  <div class="card card-yellow" style="width: 18rem;">
-    <div class="card-body">
-      <p>Produto com estoque baixo</p>
-      <div>
-        <span>0</span>
-            <img src="https://img.icons8.com/ios/50/000000/error--v1.png"/>
-        </div>
-    </div>
+  <div class="col-md-4 mt-5">
+    <label for="centroEdu" class="form-label">Centro de Educação</label>
+      <select class="form-select" aria-label="Tipo">
+        <option selected>- - -</option>
+        <option value="1">CENTRO DE EDUCAÇÃO MARANHÃO</option>
+        <option value="2">CENTRO DE EDUCAÇÃO PIAUÍ</option>
+        <option value="3">CENTRO DE EDUCAÇÃO BAHIA</option>
+      </select>
   </div>
-  <div class="card card-blue" style="width: 20rem;">
-    <div class="card-body">
-      <p>Quantidade de produtos no estoque</p>
-      <div>
-        <span>0</span>
-          <img src="https://img.icons8.com/ios/50/000000/open-box.png"/>
-        </div>
-    </div>
+  <div class="col-md-4 mt-5 mb-4">
+    <label for="tipoProduto" class="form-label">Tipo de Equipamento</label>
+        <select class="form-select" aria-label="Tipo">
+          <option selected>- - -</option>
+          <option value="1">MOUSE</option>
+          <option value="2">TECLADO</option>
+          <option value="3">CABO ETHERNET</option>
+          <option value="4">MONITOR</option>
+          <option value="5">GABINETE</option>
+        </select>
   </div>
-  <div class="card card-green" style="width: 18rem;">
-    <div class="card-body">
-      <p>Custo Total dos Produtos</p>
-      <div>
-        <span>R$ 0</span>
-          <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-money-finance-kiranshastry-lineal-kiranshastry-3.png"/>
-        </div>
-    </div>
+  <div class="col-md-12 table-responsive">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">cód</th>
+          <th scope="col">Centro de Educação</th>
+          <th scope="col">Equipamento</th>
+          <th scope="col">Nº de Série</th>
+          <th scope="col">Modelo</th>
+          <th scope="col">Marca</th>
+          <th scope="col">Data compra</th>
+          <th scope="col">Status</th>
+          <th scope="col">Observação</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>MARANHÃO</td>
+          <td>MOUSE</td>
+          <td>1455FR15D5</td>
+          <td>OPTICO 1500 CPS</td>
+          <td>RYZER</td>
+          <td>25-05-2022</td>
+          <td>FUNCIONANDO</td>
+          <td>NENHUMA</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>MARANHÃO</td>
+          <td>TECLADO</td>
+          <td>4FR47F4DF4</td>
+          <td>SEMI-MECÂNICO</td>
+          <td>SAMSUMG</td>
+          <td>22-05-2022</td>
+          <td>FUNCIONANDO</td>
+          <td>NENHUMA</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="col-md-12 span-index" style="margin:0 auto; text-align: center;">
+    <span class="btn btn-warning">1</span>
+    <span class="btn">2</span>
+    <span class="btn">3</span>
+  </div>
+  <div class="col-md-4" style="margin-top: 15px;">
+    <button class="btn btn-success">
+      Exportar para CSV
+    </button>
   </div>
 </div>
 
