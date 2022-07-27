@@ -92,9 +92,6 @@
     <div class="collapse navbar-collapse" id="navbarButtonsExample">
       <!-- Left links -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <input type="text" placeholder="Search.." name="search" >
-        </li>
       </ul>
 
       <div class="d-flex align-items-center">
@@ -110,41 +107,47 @@
         <label for="cod" class="form-label">Código</label>
         <input class="form-control cod" type="text" placeholder="Código" aria-label="Código" disabled>
       </div>
-      <div class="col-md-4">
-        <label for="tipoProduto" class="form-label">Tipo</label>
+      <div class="col-md-3">
+        <label for="tipoProduto" class="form-label">Equipamento</label>
         <select class="form-select" aria-label="Tipo">
           <option selected>- - -</option>
-          <option value="1">Mouse</option>
-          <option value="2">Teclado</option>
-          <option value="3">Cabo Ethernet</option>
-          <option value="4">Monitor</option>
-          <option value="5">Gabinete</option>
+          <option value="1">MOUSE</option>
+          <option value="2">TECLADO</option>
+          <option value="3">CABO ETHERNET</option>
+          <option value="4">MONITOR</option>
+          <option value="5">GABINETE</option>
         </select>
       </div>
-      <div class="col-md-6">
-        <label for="name" class="form-label">Nome</label>
-        <input type="text" class="form-control" id="name">
+      <div class="col-md-4">
+        <label for="tipoProduto" class="form-label">Modelo</label>
+        <select class="form-select" aria-label="Tipo">
+          <option selected>- - -</option>
+          <option value="1">MOUSE</option>
+          <option value="2">TECLADO</option>
+          <option value="3">CABO ETHERNET</option>
+          <option value="4">MONITOR</option>
+          <option value="5">GABINETE</option>
+        </select>
       </div>
-      <div class="col-md-3 mt-4">
-        <label for="grupoProduto" class="form-label">Grupo</label>
+    
+      <div class="col-md-3">
+        <label for="statusProduto" class="form-label">Status</label>
           <select class="form-select" aria-label="Tipo">
             <option selected>- - -</option>
-            <option value="1">Periféricos</option>
-            <option value="2">Cabeamentos</option>
-            <option value="3">Hardware</option>
-            <option value="4">Software</option>
-            <option value="5">Ferramentas</option>
+            <option value="1">FUNCIONANDO</option>
+            <option value="2">COM PROBLEMA</option>
+            <option value="3">OUTRO</option>
           </select>
       </div>
       <div class="col-md-3 mt-4">
         <label for="marcaProduto" class="form-label">Marca</label>
           <select class="form-select" aria-label="Tipo">
             <option selected>- - -</option>
-            <option value="1">Samsung</option>
-            <option value="2">Ryzer</option>
-            <option value="3">Intelbras</option>
-            <option value="4">Cisco</option>
-            <option value="5">Intel</option>
+            <option value="1">SANSUNG</option>
+            <option value="2">RYZER</option>
+            <option value="3">INTELBRAS</option>
+            <option value="4">CISCO</option>
+            <option value="5">INTEL</option>
           </select>
       </div>
       <div class="col-md-3 mt-4">
@@ -158,6 +161,10 @@
       <div class="col-md-11 mt-4">
         <label for="textArea" class="form-label">Observação</label>
         <textarea class="form-control" id="textArea" placeholder="Obs.:" rows="6"></textarea>
+      </div>
+      <div class="col-md-4 mt-4">
+        <button class="btn btn-success">Salvar</button>
+        <button class="btn btn-danger">Cancelar</button>
       </div>
     </div>
     
