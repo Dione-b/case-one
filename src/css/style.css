@@ -7,6 +7,10 @@ hr {
     color: #fff;
 }
 
+h4 {
+    margin-left: 10rem;
+}
+
 .navbar {
     background-color: #e6e7eb;
 }
@@ -111,6 +115,7 @@ input {
     align-items: center;
 }
 
+<<<<<<< HEAD
 #main-card .card-blue {
     border-left: 3px solid rgb(39, 18, 233);
 }
@@ -129,4 +134,14 @@ input {
 
 #main-fornecedores {
     margin-left: 400px;
+=======
+#main-entradas input {
+    margin: 0;
+}
+
+@media (max-width: 105em) {
+    .container {
+        margin-left: 12rem;
+    }
+>>>>>>> 86b75ab8f6cfc19ca14b2d446573ca95d4eca1d8
 }
