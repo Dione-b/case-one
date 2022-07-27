@@ -1,10 +1,6 @@
-@font-face {
-    font-family: "AeonikTRIAL-Bold";
-    src: url("../../fonte/AeonikTRIAL-Bold.otf");
-}
-
 body {
-    font-family: 'AeonikTRIAL-Bold';
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 hr {
@@ -27,6 +23,26 @@ input {
     font-size: 17px;
     border-radius: 5px;
     border: 1px solid #ccc;
+}
+
+#sidebar-wrapper ul li {
+    margin-top: -32px;
+    margin-left: -6px;
+}
+
+#sidebar-wrapper ul li a img {
+    filter: invert(1);
+}
+
+#menu-active {
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 15px;
+}
+
+#menu-active ul li {
+    list-style: none;
 }
 
 .btn-conta {
@@ -93,13 +109,37 @@ input {
     margin: 0;
 }
 
+#main-card {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-card .card-blue {
+    border-left: 3px solid rgb(39, 18, 233);
+}
+
+#main-card .card-green {
+    border-left: 3px solid rgba(67, 207, 11, 0.733);
+}
+
+#main-card .card-yellow {
+    border-left: 3px solid rgb(207, 207, 11);
+}
+
 #main-entradas {
-    margin-left: 250px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    margin-left: 300px;
 }
 
 #main-entradas input {
+    margin: 0;
+}
+
+#main-fornecedores {
+    margin-left: 280px;
+}
+
+#main-fornecedores input {
     margin: 0;
 }
 
