@@ -97,23 +97,26 @@
 </nav>
   <h1 class="text-center">Entradas</h1>
   <div class="row" id="main-entradas">
-    <div class="col-md-2">
-      <div class="input-group mb-3">
-        <span class="input-group-text" id="basic-addon1">código/nome</span>
-        <input type="text" class="form-control" aria-label="serialNumber" aria-describedby="basic-addon1">
-      </div>
+    <div class="col-md-5 mt-4">
+      <label for="medida" class="form-label">Cód/Nome</label>
+      <input type="text" class="form-control" id="cod">
     </div>
-      <div class="col-md-3">
-        <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon1">Nº de Série</span>
-          <input type="text" class="form-control" aria-label="serialNumber" aria-describedby="basic-addon1">
-        </div>
-      </div>
-      <div class="col-md-3">
-        <span class="input-group-text" id="basic-addon1">Data</span>
-        <input type="text" class="form-control" aria-label="serialNumber" aria-describedby="basic-addon1">
-        <input type="text" id="disabledTextInput" class="form-control" placeholder="dd-mm-aaa">
-      </div>
+    <div class="col-md-3 mt-4">
+      <label for="medida" class="form-label">Nº Série</label>
+      <input type="text" class="form-control" id="numberSerial" placeholder="XXX-XXX-XXX">
+    </div>
+    <div class="col-md-3 mt-4">
+      <label for="medida" class="form-label">Data da entrada</label>
+      <input type="text" class="form-control" id="dataTime" placeholder="dd-mm-aaa">
+    </div>
+    <div class="col-md-11 mt-4">
+      <label for="textArea" class="form-label">Observação</label>
+      <textarea class="form-control" id="textArea" placeholder="Obs.:" rows="6"></textarea>
+    </div>
+    <div class="col-md-4 mt-4">
+      <button class="btn btn-success">Salvar</button>
+      <button class="btn btn-danger">Cancelar</button>
+    </div>
   </div>
 </body>
 </html>

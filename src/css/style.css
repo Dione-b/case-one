@@ -115,7 +115,6 @@ input {
     align-items: center;
 }
 
-<<<<<<< HEAD
 #main-card .card-blue {
     border-left: 3px solid rgb(39, 18, 233);
 }
@@ -132,10 +131,15 @@ input {
     margin-left: 300px;
 }
 
-#main-fornecedores {
-    margin-left: 400px;
-=======
 #main-entradas input {
+    margin: 0;
+}
+
+#main-fornecedores {
+    margin-left: 280px;
+}
+
+#main-fornecedores input {
     margin: 0;
 }
 
@@ -143,5 +147,4 @@ input {
     .container {
         margin-left: 12rem;
     }
->>>>>>> 86b75ab8f6cfc19ca14b2d446573ca95d4eca1d8
 }
