@@ -98,8 +98,12 @@ input {
 #main-entradas input {
     margin: 0;
 }
-@media (min-width: 700px) {
-    body {
-        background: blue;
+@media (max-width:105em){
+    .container{
+        margin-left: 12rem;
+
     }
+
+
+    
 }
